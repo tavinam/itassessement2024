@@ -1,0 +1,135 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+        <style>
+        header, footer{
+            padding: 10px;
+            background-color: green;
+            color: white;
+            text-align: center;
+        }
+        footer{
+            text-align: center;
+        }
+        nav ul li{
+            display: inline;
+            padding: 20px;
+            background-color: black
+        }
+        a{
+            color: white;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000;
+            }
+
+            
+
+            li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 20px 15px;
+            text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn {
+            background-color: blue;
+            }
+
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+
+            .dropdown-content a {
+            color: black;
+            padding: 13px 15px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+    </style>
+    <title>Avinam Website</title>
+</head>
+<body>
+    <script src="java.js"></script>
+    <header>
+    
+    Welcome to my Portfolio
+    </header>
+
+    <nav class="navbar">
+        <ul class="nav-list">
+            
+
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="interest.html">Interest</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+
+
+ 
+
+        </ul>
+    
+    </nav>
+
+    <body style="background-color: lightblue;">
+        <h1>Contact Me:</h1>  
+
+      
+                <h1 title="please leave a comment" style="font-family:monospace;color:black;text-align:center;"><br>Fell Free To Comment.<br>
+                Thank You!!</h1>
+
+        <form name="form" onsubmit="return(validate());">
+        <fieldset>
+            <legend>Please enter your details</legend>
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter full nmae"><br>
+        <label>Email Adress:</label>
+        <input type="Email Adress" name="email" placeholder="Enter Your Email"><br>
+        <label>Phone Number</label>
+        <input type="number" name="phone" max="10" min="0"><br>
+        
+        
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other
+        <br>
+        <label>Choose Country</label>
+        <select>
+            <option>Nepal</option>
+            <option>America</option>
+            <option>England</option>
+        </select>
+
+        <p><br>Message: <br><textarea name="message" rows="10" cols="30" placeholder="Enter your Message"></textarea></p>
+                    <input type="submit" value="Submit">
+        
+    </form>
+
+         <!-- copyright information -->
+    <footer>
+        <p>Copyright2022@Avinam Thakur</p> 
+        
+    </footer>
+
+</body>
